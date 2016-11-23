@@ -1,0 +1,20 @@
+{
+    "name": "apple/framework",
+    "require": {
+        "illuminate/database": "^5.2",
+        "twig/twig": "^1.24",
+        "monolog/monolog": "^1.19"
+    },
+    "authors": [
+        {
+            "name": "w3hacker",
+            "email": "admin@w3hacker.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\Sys\\": "sys/",
+            "App\\": "app/"
+        }
+    }
+}
